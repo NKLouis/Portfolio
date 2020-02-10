@@ -1,3 +1,9 @@
-.nav-link{
-float: right;
+* {
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 70%;
+margin-top: 100px;;
 }
