@@ -47,5 +47,13 @@ margin-top: 100px;;
     color: white;
 }
 
+/* Portfolio */
+.babana-hunting-instruction{
+  background-color: rgba(77, 151, 255, 0.25);
+  padding: 30px;
+  width: 520px;
+  height: 402px;
+  font-size: 20px;
 
+  
 }
