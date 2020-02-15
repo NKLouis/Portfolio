@@ -4,10 +4,13 @@
 }
 
 .container {
-    width: 70%;
-margin-top: 100px;;
-
+  width: 75%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 24px;
 }
+ /* footer section*/
+
 .fa {
   float: right;
   padding: 10px;
@@ -19,7 +22,7 @@ margin-top: 100px;;
   margin: 5px 2px;
   }
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-facebook {
@@ -43,8 +46,8 @@ margin-top: 100px;;
 }
 
 .fa-skype {
-    background: #00aff0;
-    color: white;
+  background: #00aff0;
+  color: white;
 }
 
 /* Portfolio */
@@ -53,7 +56,68 @@ margin-top: 100px;;
   padding: 30px;
   width: 520px;
   height: 402px;
-  font-size: 20px;
+  font-size: 20px; 
+}
 
+/* Additional Screen Sizes */
+
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px){ 
+.wrapper {
+  width: 100%;}
+
+.img-thumbnail{
+  width: 200px;
+  height: 250px;
+}
+.container{
+  width: 100%;
+  font-size: 16px;
+
+} 
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px){ 
+.wrapper {
+width: 100%;}
+
+.img-thumbnail{
+  width: 300px;
+  height: 350px;
+}
+
+.babana-hunting-instruction{
+  margin-bottom: 30px;
+  margin-top: 30px;}
+
+.container{
+  width: 100%;
+  padding: 10px; 
+  margin: 10px;}
+ 
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px){
+.wrapper {
+  width: 90%;}
+
+  .img-thumbnail{
+    width: 500px;
+    height: 550px;
+  }
+   
+.container {
+  width: 90%;
+  padding: 15px; 
+  margin: 15px;}
   
+}
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px){
+.wrapper {
+  width: 80%;}
+  
+.container {
+  width:80%;
+  padding: 20px; 
+  margin: 20px;}
 }
