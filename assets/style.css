@@ -2,12 +2,21 @@
     font-family: 'Roboto Slab', serif;
     font-family: 'Montserrat', sans-serif;
 }
+.img-thumbnail {
+width: 500px;
+height: 650px;
 
-.container {
-  width: 75%;
-  margin-top: 80px;
-  margin-bottom: 80px;
-  font-size: 24px;
+}
+.container, main {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 22px;
+}
+
+header{
+width: 100%;
+
 }
  /* footer section*/
 
@@ -62,62 +71,77 @@
 /* Additional Screen Sizes */
 
 /*  Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px){ 
-.wrapper {
-  width: 100%;}
+@media only screen and (max-width: 575.98px){ 
+body,header,.container, main {
+  width: 100%;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+.img-thumbnail{
+  width: 30px;
+  height: 50px;
+  border-radius: 50%;}
 
+.banana-hunting{
+  width:450px;
+  height:350px;}
+
+h1,h3{
+    font-size: 20px;} 
+
+.col-sm-6{
+  width: 100%;
+  margin: 5px;}
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media only screen and (max-width: 767.98px){ 
+body,header,.container{
+  width: 100%;
+  font-size: 14px;}
+h1,h3{
+font-size: 24px;}
 .img-thumbnail{
   width: 200px;
-  height: 250px;
-}
-.container{
-  width: 100%;
-  font-size: 16px;
+  height: 250px;}
 
-} 
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px){ 
-.wrapper {
-width: 100%;}
+h1,h3{
+  font-size: 20px;} 
 
-.img-thumbnail{
-  width: 300px;
-  height: 350px;
-}
+.col-sm-6{
+width: 100%;
+margin: 5px;}
 
 .babana-hunting-instruction{
   margin-bottom: 30px;
   margin-top: 30px;}
 
-.container{
-  width: 100%;
-  padding: 10px; 
-  margin: 10px;}
- 
 }
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px){
-.wrapper {
-  width: 90%;}
 
-  .img-thumbnail{
-    width: 500px;
-    height: 550px;
-  }
-   
-.container {
-  width: 90%;
-  padding: 15px; 
-  margin: 15px;}
-  
+
+/* Medium devices (tablets, less than 992px) */
+@media only screen and (max-width: 991.98px){
+body,header,.container{
+    width: 100%;
+    font-size: 16px; }
+
+.img-thumbnail{
+    width: 300px;
+    height: 350px;} 
+    
+h1,h3{
+    font-size: 22px;} 
+    
+.col-sm-6{
+    width: 100%;
+    margin: 10px;
+  padding: 10px;}
 }
 /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px){
-.wrapper {
-  width: 80%;}
-  
-.container {
-  width:80%;
-  padding: 20px; 
-  margin: 20px;}
+@media only screen and (max-width: 1199.98px){
+body,header,.container,main{
+    width: 100%;
+    font-size: 18px;}
 }
