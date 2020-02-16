@@ -77,19 +77,23 @@ body,header,.container, main {
   font-size: 12px;
   padding: 0;
   margin: 0;
+  margin-top: 15px;
 }
 .img-thumbnail{
   width: 30px;
   height: 50px;
-  border-radius: 50%;}
+  border-radius: 50%;
+  margin: 50px 50px 3px;}
 
 .banana-hunting{
   width:450px;
   height:350px;}
 
-h1,h3{
-    font-size: 20px;} 
-
+h2,h3{
+  font-size: 20px;} 
+h2 {
+  margin-left: 20px;
+}
 .col-sm-6{
   width: 100%;
   margin: 5px;}
@@ -101,47 +105,51 @@ h1,h3{
 body,header,.container{
   width: 100%;
   font-size: 14px;}
-h1,h3{
-font-size: 24px;}
-.img-thumbnail{
-  width: 200px;
-  height: 250px;}
 
-h1,h3{
+.img-thumbnail{
+  width: 250px;
+  height: 350px;
+  border-radius: 90%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 30px;}
+
+h2,h3{
   font-size: 20px;} 
 
 .col-sm-6{
-width: 100%;
-margin: 5px;}
+  width: 100%;
+  margin: 5px;}
 
 .babana-hunting-instruction{
   margin-bottom: 30px;
   margin-top: 30px;}
-
 }
 
 
 /* Medium devices (tablets, less than 992px) */
 @media only screen and (max-width: 991.98px){
 body,header,.container{
-    width: 100%;
-    font-size: 16px; }
+  width: 100%;
+  font-size: 16px; }
 
 .img-thumbnail{
-    width: 300px;
-    height: 350px;} 
+  width: 300px;
+  height: 350px;} 
     
-h1,h3{
-    font-size: 22px;} 
+h2,h3{
+  font-size: 22px;} 
     
 .col-sm-6{
-    width: 100%;
-    margin: 10px;
-  padding: 10px;}
+  width: 100%;
+  margin-right:5px ;
+  margin-top:5px ;
+  padding: 0;}
 }
+
 /* Large devices (desktops, less than 1200px) */
 @media only screen and (max-width: 1199.98px){
 body,header,.container,main{
-    width: 100%;
-    font-size: 18px;}
+  width: 100%;
+  font-size: 18px;}
 }
