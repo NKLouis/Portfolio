@@ -2,9 +2,11 @@
 
 
 ## Live Link
+
   https://nklouis.github.io/Portfolio/
 
-## Contributors
+
+## Contributor
 
 <a href="https://github.com/NKLouis " target="_blank">**@NKLouis**</a> 
 ------
@@ -14,13 +16,16 @@
 
 
 ## Technology Stack
-* CSS, HTML,bootstrap
+
+ CSS, HTML,bootstrap
 
 
 ## License
-* MIT
+
+ MIT
+
 
 ## Contact
-#### Developer/Full-stack Web Software Developer
-* Name: Naritchaya Louis
-* e-mail: Naritchayalouis@gmail.com
+
+Name: Naritchaya Louis
+e-mail: Naritchayalouis@gmail.com
